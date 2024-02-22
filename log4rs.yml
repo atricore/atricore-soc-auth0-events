@@ -16,7 +16,7 @@ appenders:
     kind: rolling_file
     path: "tests/data/logs/data-events.log"
     encoder:
-      pattern: "{d(%Y/%m/%d %H:%M:%S)} AUTH0: {m}\n"
+      pattern: "AUTH0 {d} EVENT {m}\n"
     policy:
       kind: compound
       trigger:
