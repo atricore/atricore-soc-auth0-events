@@ -1,0 +1,18 @@
+[
+  {
+    "log_id": "90020240104175638030235000000000000001223372043552816104",
+    "data": {
+      "date": "2024-01-04T17:56:37.919Z",
+      "type": "ssa",
+      "client_id": "UmOvMz3hkYIGe2BhO2CzMd7sjoDT0lpd",
+      "client_name": "sample-01",
+      "log_id": "90020240104175638030235000000000000001223372043552816104",
+      "ip": "190.57.192.131",
+      "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "details": {
+        "completedAt": 1704390997906,
+        "session_id": "WHpatoU7egWabtz9sBOidcqwMtM-dvNh"
+      }
+    }
+  }
+]

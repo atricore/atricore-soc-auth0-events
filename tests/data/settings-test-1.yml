@@ -1,0 +1,7 @@
+address: "0.0.0.0:8080"
+api_token: "changeme"
+encoders:
+  - type: log4rs
+    enable: true
+    logger_name: "data_encoder"
+

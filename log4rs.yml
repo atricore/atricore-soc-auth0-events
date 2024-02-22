@@ -1,0 +1,46 @@
+refresh_rate: 5 seconds
+appenders:
+  console:
+    kind: console
+    encoder:
+      pattern: "{d(%+)(local)} [{t}] {h({l})} {M}:{m}{n}"
+    filters:
+      - kind: threshold
+        level: debug
+  app_events:
+    kind: file
+    path: "tests/data/logs/auth0-encoder.log"
+    encoder:
+      pattern: "{d} [{t}] {l} {M}:{m}{n}"
+  data_events:
+    kind: rolling_file
+    path: "tests/data/logs/data-events.log"
+    encoder:
+      pattern: "{d(%Y/%m/%d %H:%M:%S)} AUTH0: {m}\n"
+    policy:
+      kind: compound
+      trigger:
+        kind: size
+        limit: 500kb
+      roller:
+        kind: fixed_window
+        base: 1
+        count: 100
+        pattern: "tests/data/logs/data-events-{}.log"
+root:
+  level: info
+  appenders:
+  - console
+  - app_events
+loggers:
+  # actix_server crate
+  actix_server:
+    level: warn
+  # base crate namespace
+  a3c_soc_auth0_events:
+    level: trace
+  data_encoder:
+    level: info
+    appenders:
+      - data_events
+    additive: false

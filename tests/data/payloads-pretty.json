@@ -1,0 +1,474 @@
+[
+  {
+    "log_id": "90020240104175638030235000000000000001223372043552816104",
+    "data": {
+      "date": "2024-01-04T17:56:37.919Z",
+      "type": "ssa",
+      "client_id": "UmOvMz3hkYIGe2BhO2CzMd7sjoDT0lpd",
+      "client_name": "sample-01",
+      "ip": "190.57.192.131",
+      "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "details": {
+        "prompts": [],
+        "completedAt": 1704390997906,
+        "elapsedTime": null,
+        "session_id": "WHpatoU7egWabtz9sBOidcqwMtM-dvNh"
+      },
+      "hostname": "dev-hngzlwf6pj8axs4m.us.auth0.com",
+      "session_connection": "Username-Password-Authentication",
+      "user_id": "auth0|6596e64f99962999b908d2c5",
+      "user_name": "test@dito.com.br",
+      "auth0_client": {
+        "name": "auth0-react",
+        "version": "2.2.0"
+      },
+      "log_id": "90020240104175638030235000000000000001223372043552816104"
+    }
+  },
+  {
+    "log_id": "90020240104175638685688000000000000001223372043552816497",
+    "data": {
+      "date": "2024-01-04T17:56:38.589Z",
+      "type": "seacft",
+      "description": "",
+      "connection_id": "",
+      "client_id": "UmOvMz3hkYIGe2BhO2CzMd7sjoDT0lpd",
+      "client_name": "sample-01",
+      "ip": "190.57.192.131",
+      "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "details": {
+        "code": "******************************************q6S"
+      },
+      "hostname": "dev-hngzlwf6pj8axs4m.us.auth0.com",
+      "user_id": "auth0|6596e64f99962999b908d2c5",
+      "user_name": "test@dito.com.br",
+      "auth0_client": {
+        "name": "auth0-react",
+        "version": "2.2.0"
+      },
+      "log_id": "90020240104175638685688000000000000001223372043552816497"
+    }
+  },
+  {
+    "log_id": "90020240104175650859507000000000000001223372043552823358",
+    "data": {
+      "date": "2024-01-04T17:56:50.849Z",
+      "type": "slo",
+      "connection": "Username-Password-Authentication",
+      "connection_id": "con_e8enJWSaJHfYDz1q",
+      "client_id": "UmOvMz3hkYIGe2BhO2CzMd7sjoDT0lpd",
+      "client_name": "sample-01",
+      "ip": "190.57.192.131",
+      "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "details": {
+        "return_to": "http://localhost:3000",
+        "allowed_logout_url": [
+          "http://localhost:3000"
+        ],
+        "session_id": "WHpatoU7egWabtz9sBOidcqwMtM-dvNh"
+      },
+      "hostname": "dev-hngzlwf6pj8axs4m.us.auth0.com",
+      "user_id": "auth0|6596e64f99962999b908d2c5",
+      "user_name": "test@dito.com.br",
+      "auth0_client": {
+        "name": "auth0-react",
+        "version": "2.2.0"
+      },
+      "log_id": "90020240104175650859507000000000000001223372043552823358"
+    }
+  },
+  {
+    "log_id": "90020240104175658635948000000000000001223372043552827614",
+    "data": {
+      "date": "2024-01-04T17:56:58.571Z",
+      "type": "s",
+      "connection": "Username-Password-Authentication",
+      "connection_id": "con_e8enJWSaJHfYDz1q",
+      "client_id": "UmOvMz3hkYIGe2BhO2CzMd7sjoDT0lpd",
+      "client_name": "sample-01",
+      "ip": "190.57.192.131",
+      "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "details": {
+        "prompts": [
+          {
+            "name": "prompt-authenticate",
+            "completedAt": 1704391018204,
+            "connection": "Username-Password-Authentication",
+            "connection_id": "con_e8enJWSaJHfYDz1q",
+            "strategy": "auth0",
+            "identity": "6596e64f99962999b908d2c5",
+            "stats": {
+              "loginsCount": 3
+            },
+            "elapsedTime": null
+          },
+          {
+            "name": "login",
+            "flow": "universal-login",
+            "initiatedAt": 1704391013970,
+            "completedAt": 1704391018240,
+            "user_id": "auth0|6596e64f99962999b908d2c5",
+            "user_name": "test@dito.com.br",
+            "timers": {
+              "rules": 19
+            },
+            "elapsedTime": 4270
+          }
+        ],
+        "initiatedAt": 1704391013946,
+        "completedAt": 1704391018568,
+        "elapsedTime": 4622,
+        "session_id": "gekzVZOjCCpT5XdzdfaEvd8RcRoC6V0L",
+        "stats": {
+          "loginsCount": 3
+        }
+      },
+      "hostname": "dev-hngzlwf6pj8axs4m.us.auth0.com",
+      "user_id": "auth0|6596e64f99962999b908d2c5",
+      "user_name": "test@dito.com.br",
+      "strategy": "auth0",
+      "strategy_type": "database",
+      "log_id": "90020240104175658635948000000000000001223372043552827614"
+    }
+  },
+  {
+    "log_id": "90020240104175659300462000000000000001223372043552827962",
+    "data": {
+      "date": "2024-01-04T17:56:59.161Z",
+      "type": "seacft",
+      "description": "",
+      "connection_id": "",
+      "client_id": "UmOvMz3hkYIGe2BhO2CzMd7sjoDT0lpd",
+      "client_name": "sample-01",
+      "ip": "190.57.192.131",
+      "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "details": {
+        "code": "******************************************CDz"
+      },
+      "hostname": "dev-hngzlwf6pj8axs4m.us.auth0.com",
+      "user_id": "auth0|6596e64f99962999b908d2c5",
+      "user_name": "test@dito.com.br",
+      "auth0_client": {
+        "name": "auth0-react",
+        "version": "2.2.0"
+      },
+      "log_id": "90020240104175659300462000000000000001223372043552827962"
+    }
+  },
+  {
+    "log_id": "90020240104205215470528000000000000001223372043558441325",
+    "data": {
+      "date": "2024-01-04T20:52:15.403Z",
+      "type": "ssa",
+      "client_id": "UmOvMz3hkYIGe2BhO2CzMd7sjoDT0lpd",
+      "client_name": "sample-01",
+      "ip": "190.57.192.131",
+      "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "details": {
+        "prompts": [],
+        "completedAt": 1704401535401,
+        "elapsedTime": null,
+        "session_id": "gekzVZOjCCpT5XdzdfaEvd8RcRoC6V0L"
+      },
+      "hostname": "dev-hngzlwf6pj8axs4m.us.auth0.com",
+      "session_connection": "Username-Password-Authentication",
+      "user_id": "auth0|6596e64f99962999b908d2c5",
+      "user_name": "test@dito.com.br",
+      "auth0_client": {
+        "name": "auth0-react",
+        "version": "2.2.0"
+      },
+      "log_id": "90020240104205215470528000000000000001223372043558441325"
+    }
+  },
+  {
+    "log_id": "90020240104205216094577000000000000001223372043558441635",
+    "data": {
+      "date": "2024-01-04T20:52:16.009Z",
+      "type": "seacft",
+      "description": "",
+      "connection_id": "",
+      "client_id": "UmOvMz3hkYIGe2BhO2CzMd7sjoDT0lpd",
+      "client_name": "sample-01",
+      "ip": "190.57.192.131",
+      "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "details": {
+        "code": "******************************************HQz"
+      },
+      "hostname": "dev-hngzlwf6pj8axs4m.us.auth0.com",
+      "user_id": "auth0|6596e64f99962999b908d2c5",
+      "user_name": "test@dito.com.br",
+      "auth0_client": {
+        "name": "auth0-react",
+        "version": "2.2.0"
+      },
+      "log_id": "90020240104205216094577000000000000001223372043558441635"
+    }
+  },
+  {
+    "log_id": "90020240104205309048526000000000000001223372043558468374",
+    "data": {
+      "date": "2024-01-04T20:53:08.935Z",
+      "type": "slo",
+      "connection": "Username-Password-Authentication",
+      "connection_id": "con_e8enJWSaJHfYDz1q",
+      "client_id": "UmOvMz3hkYIGe2BhO2CzMd7sjoDT0lpd",
+      "client_name": "sample-01",
+      "ip": "190.57.192.131",
+      "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "details": {
+        "return_to": "http://localhost:3000",
+        "allowed_logout_url": [
+          "http://localhost:3000"
+        ],
+        "session_id": "gekzVZOjCCpT5XdzdfaEvd8RcRoC6V0L"
+      },
+      "hostname": "dev-hngzlwf6pj8axs4m.us.auth0.com",
+      "user_id": "auth0|6596e64f99962999b908d2c5",
+      "user_name": "test@dito.com.br",
+      "auth0_client": {
+        "name": "auth0-react",
+        "version": "2.2.0"
+      },
+      "log_id": "90020240104205309048526000000000000001223372043558468374"
+    }
+  },
+  {
+    "log_id": "90020240104205316273012000000000000001223372043558471957",
+    "data": {
+      "date": "2024-01-04T20:53:16.150Z",
+      "type": "s",
+      "connection": "Username-Password-Authentication",
+      "connection_id": "con_e8enJWSaJHfYDz1q",
+      "client_id": "UmOvMz3hkYIGe2BhO2CzMd7sjoDT0lpd",
+      "client_name": "sample-01",
+      "ip": "190.57.192.131",
+      "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "details": {
+        "prompts": [
+          {
+            "name": "prompt-authenticate",
+            "completedAt": 1704401595815,
+            "connection": "Username-Password-Authentication",
+            "connection_id": "con_e8enJWSaJHfYDz1q",
+            "strategy": "auth0",
+            "identity": "6596e64f99962999b908d2c5",
+            "stats": {
+              "loginsCount": 4
+            },
+            "elapsedTime": null
+          },
+          {
+            "name": "login",
+            "flow": "universal-login",
+            "initiatedAt": 1704401591559,
+            "completedAt": 1704401595842,
+            "user_id": "auth0|6596e64f99962999b908d2c5",
+            "user_name": "test@dito.com.br",
+            "timers": {
+              "rules": 5
+            },
+            "elapsedTime": 4283
+          }
+        ],
+        "initiatedAt": 1704401591545,
+        "completedAt": 1704401596148,
+        "elapsedTime": 4603,
+        "session_id": "47QBvoqmgQyleEiZwT7Vru4V4zVzQGFF",
+        "stats": {
+          "loginsCount": 4
+        }
+      },
+      "hostname": "dev-hngzlwf6pj8axs4m.us.auth0.com",
+      "user_id": "auth0|6596e64f99962999b908d2c5",
+      "user_name": "test@dito.com.br",
+      "strategy": "auth0",
+      "strategy_type": "database",
+      "log_id": "90020240104205316273012000000000000001223372043558471957"
+    }
+  },
+  {
+    "log_id": "90020240104205317006755000000000000001223372043558472290",
+    "data": {
+      "date": "2024-01-04T20:53:16.881Z",
+      "type": "seacft",
+      "description": "",
+      "connection_id": "",
+      "client_id": "UmOvMz3hkYIGe2BhO2CzMd7sjoDT0lpd",
+      "client_name": "sample-01",
+      "ip": "190.57.192.131",
+      "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "details": {
+        "code": "******************************************n_X"
+      },
+      "hostname": "dev-hngzlwf6pj8axs4m.us.auth0.com",
+      "user_id": "auth0|6596e64f99962999b908d2c5",
+      "user_name": "test@dito.com.br",
+      "auth0_client": {
+        "name": "auth0-react",
+        "version": "2.2.0"
+      },
+      "log_id": "90020240104205317006755000000000000001223372043558472290"
+    }
+  },
+  {
+    "log_id": "90020240104205336050531000000000000001223372043558481675",
+    "data": {
+      "date": "2024-01-04T20:53:36.014Z",
+      "type": "sapi",
+      "description": "Update a log stream",
+      "client_id": "kzW8RZEbbNRQT34OuxH4iZz3Wq01XL1D",
+      "client_name": "",
+      "ip": "190.57.192.131",
+      "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "details": {
+        "request": {
+          "method": "patch",
+          "path": "/api/v2/log-streams/lst_0000000000004870",
+          "query": {},
+          "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+          "body": {
+            "name": "a3c-soc-auth0",
+            "sink": {
+              "httpContentFormat": "JSONLINES",
+              "httpContentType": "application/json"
+            }
+          },
+          "channel": "https://manage.auth0.com/",
+          "ip": "190.57.192.131",
+          "auth": {
+            "user": {
+              "user_id": "google-oauth2|116904086756306332740",
+              "name": "Sebastian Gonzalez Oyuela",
+              "email": "sgonzalez@atricore.com"
+            },
+            "strategy": "jwt",
+            "credentials": {
+              "jti": "0ca3293af432daf1302fd69ff4f4baf8"
+            }
+          }
+        },
+        "response": {
+          "statusCode": 200,
+          "body": {
+            "id": "lst_0000000000004870",
+            "name": "a3c-soc-auth0",
+            "type": "http",
+            "sink": {
+              "httpContentFormat": "JSONLINES",
+              "httpContentType": "application/json"
+            }
+          }
+        }
+      },
+      "user_id": "google-oauth2|116904086756306332740",
+      "log_id": "90020240104205336050531000000000000001223372043558481675"
+    }
+  },
+  {
+    "log_id": "90020240104205403772726000000000000001223372043558495461",
+    "data": {
+      "date": "2024-01-04T20:54:03.692Z",
+      "type": "slo",
+      "connection": "Username-Password-Authentication",
+      "connection_id": "con_e8enJWSaJHfYDz1q",
+      "client_id": "UmOvMz3hkYIGe2BhO2CzMd7sjoDT0lpd",
+      "client_name": "sample-01",
+      "ip": "190.57.192.131",
+      "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "details": {
+        "return_to": "http://localhost:3000",
+        "allowed_logout_url": [
+          "http://localhost:3000"
+        ],
+        "session_id": "47QBvoqmgQyleEiZwT7Vru4V4zVzQGFF"
+      },
+      "hostname": "dev-hngzlwf6pj8axs4m.us.auth0.com",
+      "user_id": "auth0|6596e64f99962999b908d2c5",
+      "user_name": "test@dito.com.br",
+      "auth0_client": {
+        "name": "auth0-react",
+        "version": "2.2.0"
+      },
+      "log_id": "90020240104205403772726000000000000001223372043558495461"
+    }
+  },
+  {
+    "log_id": "90020240104205409404119000000000000001223372043558498224",
+    "data": {
+      "date": "2024-01-04T20:54:09.265Z",
+      "type": "s",
+      "connection": "Username-Password-Authentication",
+      "connection_id": "con_e8enJWSaJHfYDz1q",
+      "client_id": "UmOvMz3hkYIGe2BhO2CzMd7sjoDT0lpd",
+      "client_name": "sample-01",
+      "ip": "190.57.192.131",
+      "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "details": {
+        "prompts": [
+          {
+            "name": "prompt-authenticate",
+            "completedAt": 1704401648950,
+            "connection": "Username-Password-Authentication",
+            "connection_id": "con_e8enJWSaJHfYDz1q",
+            "strategy": "auth0",
+            "identity": "6596e64f99962999b908d2c5",
+            "stats": {
+              "loginsCount": 5
+            },
+            "elapsedTime": null
+          },
+          {
+            "name": "login",
+            "flow": "universal-login",
+            "initiatedAt": 1704401645535,
+            "completedAt": 1704401648971,
+            "user_id": "auth0|6596e64f99962999b908d2c5",
+            "user_name": "test@dito.com.br",
+            "timers": {
+              "rules": 5
+            },
+            "elapsedTime": 3436
+          }
+        ],
+        "initiatedAt": 1704401645514,
+        "completedAt": 1704401649263,
+        "elapsedTime": 3749,
+        "session_id": "K3E4p8HV9Qq-Dd1eWmU5bgODHNSaKNqb",
+        "stats": {
+          "loginsCount": 5
+        }
+      },
+      "hostname": "dev-hngzlwf6pj8axs4m.us.auth0.com",
+      "user_id": "auth0|6596e64f99962999b908d2c5",
+      "user_name": "test@dito.com.br",
+      "strategy": "auth0",
+      "strategy_type": "database",
+      "log_id": "90020240104205409404119000000000000001223372043558498224"
+    }
+  },
+  {
+    "log_id": "90020240104205410651486000000000000001223372043558498897",
+    "data": {
+      "date": "2024-01-04T20:54:10.560Z",
+      "type": "seacft",
+      "description": "",
+      "connection_id": "",
+      "client_id": "UmOvMz3hkYIGe2BhO2CzMd7sjoDT0lpd",
+      "client_name": "sample-01",
+      "ip": "190.57.192.131",
+      "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "details": {
+        "code": "******************************************Snf"
+      },
+      "hostname": "dev-hngzlwf6pj8axs4m.us.auth0.com",
+      "user_id": "auth0|6596e64f99962999b908d2c5",
+      "user_name": "test@dito.com.br",
+      "auth0_client": {
+        "name": "auth0-react",
+        "version": "2.2.0"
+      },
+      "log_id": "90020240104205410651486000000000000001223372043558498897"
+    }
+  }
+]
