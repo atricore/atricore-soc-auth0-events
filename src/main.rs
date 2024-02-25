@@ -92,7 +92,7 @@ pub fn create_log4rs_encoder(
 }
 
 fn init_log(f: Option<String>) {
-    let fname = f.unwrap_or("./log4rs.yml".to_string());
+    let fname = f.unwrap_or("./log4rs.yaml".to_string());
 
     let _ = log4rs::init_file(&fname, Default::default())
         .map_err(|e| {

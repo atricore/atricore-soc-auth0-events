@@ -1,7 +1,7 @@
 address: "0.0.0.0:8080"
 api_token: "changeme"
+log_config: "./log4rs.yml"
 encoders:
   - type: log4rs
     enable: true
     logger_name: "data_encoder"
-    log_config: "./log4rs.yml"

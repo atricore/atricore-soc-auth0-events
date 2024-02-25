@@ -35,11 +35,11 @@ pub struct Settings {
 
 pub fn load_config() -> Result<Settings, ConfigError> {
     // Get the file name from an argument, if not available get it from the env. var.
-    // A3C_SOC_AUTH0_CONFIG
+    // A3C_SOC_AUTH0_CONFIG_FILE
     let args = Args::parse_args();
     let config_name = args
         .config
-        .or_else(|| env::var("A3C_AUTH0_EVENTS_CONFIG_FILE").ok()) // Use the environment variable if the argument is not provided
+        .or_else(|| env::var("A3C_SOC_AUTH0_EVENTS_CONFIG_FILE").ok()) // Use the environment variable if the argument is not provided
         .unwrap_or("a3c-soc-auth0-events.yaml".to_string());
 
     let config_path = PathBuf::from(&config_name);
