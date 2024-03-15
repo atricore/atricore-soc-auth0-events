@@ -1,4 +1,5 @@
 address: "0.0.0.0:8080"
+  #api_token: "4o0oYEGTzykUwlEISDa6tb8OkcpU9DxHM2M1hJiJ7AAv8ltoqriFRXZIXurosiobp6HzKSifcn4g0l5J"
 api_token: "changeme"
 log_config: "./log4rs.yml"
 encoders:
