@@ -17,7 +17,7 @@
       "hostname": "dev-hngzlwf6pj8axs4m.us.auth0.com",
       "session_connection": "Username-Password-Authentication",
       "user_id": "auth0|6596e64f99962999b908d2c5",
-      "user_name": "test@dito.com.br",
+      "user_name": "test@mycompany.com",
       "auth0_client": {
         "name": "auth0-react",
         "version": "2.2.0"
@@ -41,7 +41,7 @@
       },
       "hostname": "dev-hngzlwf6pj8axs4m.us.auth0.com",
       "user_id": "auth0|6596e64f99962999b908d2c5",
-      "user_name": "test@dito.com.br",
+      "user_name": "test@mycompany.com",
       "auth0_client": {
         "name": "auth0-react",
         "version": "2.2.0"
@@ -69,7 +69,7 @@
       },
       "hostname": "dev-hngzlwf6pj8axs4m.us.auth0.com",
       "user_id": "auth0|6596e64f99962999b908d2c5",
-      "user_name": "test@dito.com.br",
+      "user_name": "test@mycompany.com",
       "auth0_client": {
         "name": "auth0-react",
         "version": "2.2.0"
@@ -108,7 +108,7 @@
             "initiatedAt": 1704391013970,
             "completedAt": 1704391018240,
             "user_id": "auth0|6596e64f99962999b908d2c5",
-            "user_name": "test@dito.com.br",
+            "user_name": "test@mycompany.com",
             "timers": {
               "rules": 19
             },
@@ -125,7 +125,7 @@
       },
       "hostname": "dev-hngzlwf6pj8axs4m.us.auth0.com",
       "user_id": "auth0|6596e64f99962999b908d2c5",
-      "user_name": "test@dito.com.br",
+      "user_name": "test@mycompany.com",
       "strategy": "auth0",
       "strategy_type": "database",
       "log_id": "90020240104175658635948000000000000001223372043552827614"
@@ -147,7 +147,7 @@
       },
       "hostname": "dev-hngzlwf6pj8axs4m.us.auth0.com",
       "user_id": "auth0|6596e64f99962999b908d2c5",
-      "user_name": "test@dito.com.br",
+      "user_name": "test@mycompany.com",
       "auth0_client": {
         "name": "auth0-react",
         "version": "2.2.0"
@@ -173,7 +173,7 @@
       "hostname": "dev-hngzlwf6pj8axs4m.us.auth0.com",
       "session_connection": "Username-Password-Authentication",
       "user_id": "auth0|6596e64f99962999b908d2c5",
-      "user_name": "test@dito.com.br",
+      "user_name": "test@mycompany.com",
       "auth0_client": {
         "name": "auth0-react",
         "version": "2.2.0"
@@ -197,7 +197,7 @@
       },
       "hostname": "dev-hngzlwf6pj8axs4m.us.auth0.com",
       "user_id": "auth0|6596e64f99962999b908d2c5",
-      "user_name": "test@dito.com.br",
+      "user_name": "test@mycompany.com",
       "auth0_client": {
         "name": "auth0-react",
         "version": "2.2.0"
@@ -225,7 +225,7 @@
       },
       "hostname": "dev-hngzlwf6pj8axs4m.us.auth0.com",
       "user_id": "auth0|6596e64f99962999b908d2c5",
-      "user_name": "test@dito.com.br",
+      "user_name": "test@mycompany.com",
       "auth0_client": {
         "name": "auth0-react",
         "version": "2.2.0"
@@ -264,7 +264,7 @@
             "initiatedAt": 1704401591559,
             "completedAt": 1704401595842,
             "user_id": "auth0|6596e64f99962999b908d2c5",
-            "user_name": "test@dito.com.br",
+            "user_name": "test@mycompany.com",
             "timers": {
               "rules": 5
             },
@@ -281,7 +281,7 @@
       },
       "hostname": "dev-hngzlwf6pj8axs4m.us.auth0.com",
       "user_id": "auth0|6596e64f99962999b908d2c5",
-      "user_name": "test@dito.com.br",
+      "user_name": "test@mycompany.com",
       "strategy": "auth0",
       "strategy_type": "database",
       "log_id": "90020240104205316273012000000000000001223372043558471957"
@@ -303,7 +303,7 @@
       },
       "hostname": "dev-hngzlwf6pj8axs4m.us.auth0.com",
       "user_id": "auth0|6596e64f99962999b908d2c5",
-      "user_name": "test@dito.com.br",
+      "user_name": "test@mycompany.com",
       "auth0_client": {
         "name": "auth0-react",
         "version": "2.2.0"
@@ -385,7 +385,7 @@
       },
       "hostname": "dev-hngzlwf6pj8axs4m.us.auth0.com",
       "user_id": "auth0|6596e64f99962999b908d2c5",
-      "user_name": "test@dito.com.br",
+      "user_name": "test@mycompany.com",
       "auth0_client": {
         "name": "auth0-react",
         "version": "2.2.0"
@@ -424,7 +424,7 @@
             "initiatedAt": 1704401645535,
             "completedAt": 1704401648971,
             "user_id": "auth0|6596e64f99962999b908d2c5",
-            "user_name": "test@dito.com.br",
+            "user_name": "test@mycompany.com",
             "timers": {
               "rules": 5
             },
@@ -441,7 +441,7 @@
       },
       "hostname": "dev-hngzlwf6pj8axs4m.us.auth0.com",
       "user_id": "auth0|6596e64f99962999b908d2c5",
-      "user_name": "test@dito.com.br",
+      "user_name": "test@mycompany.com",
       "strategy": "auth0",
       "strategy_type": "database",
       "log_id": "90020240104205409404119000000000000001223372043558498224"
@@ -463,7 +463,7 @@
       },
       "hostname": "dev-hngzlwf6pj8axs4m.us.auth0.com",
       "user_id": "auth0|6596e64f99962999b908d2c5",
-      "user_name": "test@dito.com.br",
+      "user_name": "test@mycompany.com",
       "auth0_client": {
         "name": "auth0-react",
         "version": "2.2.0"
