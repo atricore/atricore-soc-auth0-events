@@ -1,6 +1,6 @@
 # JOSSO development environment: tools to work with JOSSO/IAM.tf
 {
-  description = "VRH - PDF management module";
+  description = "Rust dev env";
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
     flake-utils.url = "github:numtide/flake-utils";
@@ -58,7 +58,7 @@
                   lib.optionals pkgs.stdenv.isDarwin (with pkgs.darwin.apple_sdk; [
                     frameworks.Security
                   ])
-                  ++ (with pkgs; [ngrok nushell glibc just cargo-watch]);
+                  ++ (with pkgs; [nushell glibc just cargo-watch]);
 
                 enterShell = with pkgs; ''
                   echo
